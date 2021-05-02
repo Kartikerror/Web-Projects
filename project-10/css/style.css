@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-1 {
+    position: relative;
+    width: 1440px;
+    height: 961px;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    background-image: url(../images/bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rect-1 {
+    position: relative;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    width: 351px;
+    height: 79px;
+    background-color: #ffba00;
+    top: 38px;
+}
+
+.rect-1 h1 {
+    position: absolute;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 33.33px !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    bottom: 28px;
+    left: 157px;
+    font-weight: 800;
+}
+
+.rect-1 span {
+    position: absolute;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 33.33px !important;
+    font-family: 'Montserrat', sans-serif;
+    top: 7px;
+    color: #fff;
+    float: right;
+    left: 132px;
+}
+
+.header-1 ul {
+    position: absolute;
+    top: 60px;
+    left: 552px;
+    width: 621px;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    display: flex;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 33.33px;
+    text-align: right;
+}
+
+.header-1 ul .li-1 {
+    padding-right: 78px;
+}
+
+.header-1 ul .li-2 {
+    padding-right: 62px;
+}
+
+.header-1 ul .li-3 {
+    padding-right: 65px;
+}
+
+.header-1 ul .li-4 {
+    padding-right: 0px;
+}
+
+.header-1 ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 33.33px;
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+}
+
+.header-1 ul li a:hover {
+    color: rgb(195, 195, 195);
+}
+
+.rect-2 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    position: relative;
+    top: 403px;
+    width: 1440px;
+    height: 200px;
+    background: #ffba00;
+}
+
+.rect-2 h1 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    color: #fff;
+    font-weight: 900;
+    left: 171px;
+    top: 15px;
+}
+
+.rect-2 h2 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    color: #fff;
+    left: 171px;
+    top: 126px;
+}
+
+.btn-1 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    position: absolute;
+    left: 811px;
+    font-size: 37.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 340px;
+    height: 85px;
+    border: 4px solid #fff;
+    background: #ffba00;
+    top: 156px;
+}
+
+.btn-1:hover {
+    transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    transition: all 0.5s ease-out;
+    background: #fff;
+    color: #ffba00;
+    border: 4px solid #ffba00;
+}
+
+.header-2 {
+    position: relative;
+    width: 1440px;
+    height: 608px;
+    background: #242424;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.image-2 {
+    position: absolute;
+    height: 444px;
+    width: 622px;
+    right: 0px;
+    top: 80px;
+    background-image: url(../images/bg-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rect-3 {
+    position: absolute;
+    width: 840px;
+    height: 190px;
+    background: #ffba00;
+    left: 131px;
+    top: 213px;
+}
+
+.rect-3 h2 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    transform: rotate(-90deg);
+    left: -100px;
+    top: 58px;
+    letter-spacing: 4px;
+}
+
+.para span {
+    position: absolute;
+    top: 140px;
+    font-family: 'Lato', sans-serif;
+    font-size: 33.33px;
+    font-weight: 900;
+    left: 280px;
+    color: #fff;
+    letter-spacing: 7px;
+}
+
+.para ul {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    line-height: 135px;
+    list-style: none;
+    display: block;
+    position: absolute;
+    top: 225px;
+    font-family: 'Lato', sans-serif;
+    font-size: 33.33px;
+    left: 280px;
+    color: #fff;
+}
+
+.para ul .li-5 {
+    line-height: 40px;
+}
+
+.para ul .li-6 {
+    line-height: 20px;
+}
+
+.header-3 {
+    position: relative;
+    width: 1440px;
+    height: 375px;
+    background: #ffffff;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.card-1 {
+    position: absolute;
+    left: 156px;
+    top: 120px;
+    text-align: left;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.card-2 {
+    position: absolute;
+    left: 550px;
+    top: 120px;
+    text-align: left;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.card-3 {
+    position: absolute;
+    left: 930px;
+    top: 120px;
+    text-align: left;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.card-1 h1 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 29.17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ffba00;
+    line-height: 70px;
+}
+
+.card-2 h1 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 29.17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ffba00;
+    line-height: 70px;
+}
+
+.card-3 h1 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 29.17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ffba00;
+    line-height: 70px;
+}
+
+.card-1 p {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 16.62px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-2 p {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 16.62px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-3 p {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 16.62px;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-4 {
+    position: relative;
+    width: 1440px;
+    height: 1196px;
+    background: #ffffff;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/bg-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-4 h1 {
+    position: absolute;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 33.33px !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffba00;
+    top: 94px;
+    left: 644px;
+    font-weight: 800;
+}
+
+.header-4 span {
+    position: absolute;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 33.33px !important;
+    font-family: 'Montserrat', sans-serif;
+    top: 100px;
+    color: #ffba00;
+    float: right;
+    left: 621px;
+}
+
+.rect-4 {
+    position: relative;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    width: 1182.335px;
+    height: 128px;
+    left: 257px;
+    top: 190px;
+    border: 2px solid #fff;
+}
+
+.rect-5 {
+    position: absolute;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    width: 1037px;
+    height: 417px;
+    right: 0px;
+    top: 414px;
+    background-color: #ffba00;
+}
+
+.header-4 .rect-4 h1 {
+    position: absolute;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 47.59px !important;
+    font-weight: 400;
+    left: 266px;
+    top: 20px;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffba00;
+}
+
+.header-4 ul {
+    position: absolute;
+    left: 445px;
+    top: 465px;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 33.33px;
+    list-style: none;
+}
+
+.header-4 ul .li-8 {
+    position: absolute;
+    top: 130px;
+}
+
+.header-4 ul .li-9 {
+    position: absolute;
+    top: 260px;
+}
+
+.header-4 ul .li-10 {
+    position: absolute;
+    top: 370px;
+}
+
+.header-4 .rect-6 {
+    position: absolute;
+    width: 65px;
+    height: 349px;
+    background: #ffda00;
+    right: 251px;
+    top: 481px;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+}
