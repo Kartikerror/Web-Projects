@@ -1,0 +1,638 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Navbar CSS */
+
+.header-1 {
+    height: 500px;
+    background: #f4f9f4;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.inner-header-1 {
+    height: 500px;
+}
+
+.ul-1 {
+    display: flex;
+    margin-left: auto !important;
+    width: 100%;
+    height: 40px;
+    background: #e2ede8;
+    list-style: none;
+}
+
+.ul-1 li {
+    padding: 9px 20px;
+}
+
+.ul-1 li a {
+    text-decoration: none;
+    color: #494f4e;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ul-1 li a:hover {
+    background: #c7d9d5;
+}
+
+.left {
+    height: 500px;
+}
+
+.right {
+    height: 500px;
+}
+
+.image {
+    margin: 72px auto;
+    width: 350px;
+    height: 350px;
+    background: grey;
+    border-radius: 190px;
+    background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+}
+
+.h-1 {
+    font-weight: bold;
+    color: #6c9894;
+    font-size: 60px;
+    margin: 0px auto;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.p-1 {
+    color: #6c9894;
+    text-align: center;
+    font-size: 21px;
+}
+
+.btn-1 {
+    background: #6c9894;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 33px;
+    margin-left: 166px;
+}
+
+
+/* Class Section CSS */
+
+.header-2 {
+    position: relative;
+    height: 750px;
+    background: #6c9894;
+}
+
+.inner-header-2 {
+    position: relative;
+    height: 750px;
+    background: #6c9894;
+}
+
+.h-2 {
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    top: 70px;
+    left: 330px;
+}
+
+.p-2 {
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    left: 256px;
+    top: 155px;
+}
+
+.image-1 {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    border-radius: 140px;
+    margin-left: 11px;
+    background-image: url(../images/bg-2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.c-1 {
+    width: 275px !important;
+    background: #6c9894;
+    border: none;
+    margin-left: 40px;
+}
+
+.card-h-1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-p-1 {
+    text-align: center;
+    color: #fff;
+}
+
+.card-decks {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 66px;
+}
+
+.image-2 {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    border-radius: 140px;
+    margin-left: 11px;
+    background-image: url(../images/bg-3.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.image-3 {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    border-radius: 140px;
+    margin-left: 11px;
+    background-image: url(../images/bg-4.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+/* Our State Section CSS */
+
+.header-3 {
+    position: relative;
+    height: 700px;
+    background: #f2f2f2;
+}
+
+.inner-header-3 {
+    position: relative;
+    height: 700px;
+    background: #f2f2f2;
+}
+
+.h-3 {
+    position: absolute;
+    font-weight: bold;
+    color: #6c9894;
+    font-size: 60px;
+    text-align: center;
+    top: 70px;
+    left: 330px;
+}
+
+.p-3 {
+    color: #6c9894;
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    left: 256px;
+    top: 155px;
+}
+
+.card-decks-2 {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 348px;
+    left: 79px;
+}
+
+.border-circle {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 136px;
+    border: 4px solid #6c9894;
+    margin-left: 50px;
+}
+
+.span-1 {
+    color: #6c9894;
+    font-weight: bold;
+    font-size: 55px;
+    position: absolute;
+    top: 49px;
+    left: 121px;
+}
+
+.span-2 {
+    color: #6c9894;
+    font-weight: bold;
+    font-size: 55px;
+    position: absolute;
+    top: 49px;
+    left: 421px;
+}
+
+.span-3 {
+    color: #6c9894;
+    font-weight: bold;
+    font-size: 55px;
+    position: absolute;
+    top: 49px;
+    left: 723px;
+}
+
+.p-4 {
+    color: #6c9894;
+    position: absolute;
+    top: 109px;
+    left: 57px;
+}
+
+.p-5 {
+    color: #6c9894;
+    position: absolute;
+    top: 84px;
+    left: 336px;
+}
+
+.p-6 {
+    color: #6c9894;
+    position: absolute;
+    top: 133px;
+    left: 685px;
+}
+
+
+/* Instructor Section CSS */
+
+.header-4 {
+    position: relative;
+    height: 600px;
+    background: #f2f2f2;
+}
+
+.inner-header-4 {
+    position: relative;
+    height: 600px;
+}
+
+.left-text {
+    height: 600px;
+    background: #6c9894;
+}
+
+.right-img {
+    height: 600px;
+    background-image: url(../images/bg-5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.h-4 {
+    font-size: 60px;
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.p-7 {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 38px;
+}
+
+.btn-2 {
+    background: #fff;
+    color: #6c9894;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.header-5 {
+    position: relative;
+    height: 600px;
+    background: #f2f2f2;
+}
+
+.inner-header-5 {
+    position: relative;
+    height: 600px;
+}
+
+.right-text {
+    height: 600px;
+    background: #fff;
+}
+
+.left-img {
+    height: 600px;
+    background-image: url(../images/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.btn-3 {
+    background: #6c9894;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.h-5 {
+    font-size: 60px;
+    color: #6c9894;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.p-8 {
+    color: #6c9894;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 38px;
+}
+
+
+/* Pricing Section CSS */
+
+.header-6 {
+    position: relative;
+    height: 700px;
+    background-color: #6c9894;
+}
+
+.inner-header-6 {
+    position: relative;
+    height: 700px;
+}
+
+.h-6 {
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 57px;
+    left: 423px;
+}
+
+.p-9 {
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    left: 256px;
+    top: 140px;
+}
+
+.c-text {
+    color: #6c9894;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.medal {
+    text-align: center;
+    color: #6c9894;
+}
+
+.btn-4 {
+    background: #6c9894;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 256px;
+    height: 60px;
+    margin-left: -4px;
+    margin-top: 30px;
+}
+
+.c-2 {
+    border: none;
+    margin-left: 40px;
+}
+
+.card-decks-3 {
+    display: flex;
+    position: absolute;
+    top: 275px;
+    left: 45px;
+}
+
+
+/* Trainer Section CSS */
+
+.header-7 {
+    position: relative;
+    height: 650px;
+    background: #f4f9f4;
+}
+
+.inner-header-7 {
+    position: relative;
+    height: 650px;
+    text-align: center;
+}
+
+.image-4 {
+    width: 300px;
+    height: 300px;
+    background: grey;
+    border: none;
+    border-radius: 200px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    margin-top: 55px;
+    margin-left: 391px;
+    background-image: url(../images/bg-7.png);
+    background-position: right;
+}
+
+.p-10 {
+    color: #6c9894;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    font-weight: lighter;
+    top: 359px;
+}
+
+.span-4 {
+    color: #6c9894;
+    font-weight: 900;
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 390px;
+}
+
+
+/* Subscribe Section CSS */
+
+.header-8 {
+    position: relative;
+    height: 400px;
+    background: #6c9894;
+}
+
+.inner-header7 {
+    position: relative;
+    height: 400px;
+}
+
+.h-7 {
+    position: absolute;
+    left: 28%;
+    top: 80px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.p-11 {
+    position: absolute;
+    left: 31.5%;
+    top: 158px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact_us {
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 260px;
+}
+
+.email {
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 58px;
+}
+
+.email::placeholder {
+    padding-left: 15px;
+    color: #bdcfcd;
+}
+
+.btn-5 {
+    width: 144px;
+    height: 39px;
+    border: none;
+    background: #fff;
+    color: #6c9894;
+    font-weight: bold;
+    margin-left: -144px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/* Footer Section CSS */
+
+.header-9 {
+    position: relative;
+    height: 400px;
+    background: #f4f9f4;
+}
+
+.others {
+    position: absolute;
+    right: 80px;
+    top: 80px;
+}
+
+.p-12 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #6c9894;
+}
+
+.ul-4 {
+    list-style: none;
+}
+
+.ul-4 li {
+    /* line-height: 3; */
+    padding-top: 15px;
+    text-align: start;
+}
+
+.li-1 {
+    padding-top: 0px !important;
+}
+
+.ul-4 li a {
+    color: #6c9894;
+    text-decoration: none;
+}
+
+.ul-4 li a:hover {
+    color: rgb(116, 115, 115);
+}
+
+.services {
+    position: absolute;
+    right: 280px;
+    top: 80px;
+}
+
+.about {
+    position: absolute;
+    right: 530px;
+    top: 80px;
+}
+
+.musicology {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+.icons {
+    margin-left: 26px;
+    margin-top: 30px;
+}
+
+.insta,
+.twitter,
+.fb,
+.whatsapp {
+    background: #fff;
+    color: #6c9894;
+}
+
+.p-13 {
+    margin-top: 30px;
+    color: #6c9894;
+}

@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Navbar CSS */
+
+.header-1 {
+    position: relative;
+    height: 60px;
+    background: #87509c;
+}
+
+.inner-header {
+    height: 350px;
+    /* background: #87509c; */
+}
+
+.logo {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.right {
+    margin-top: 19px !important;
+}
+
+.ul-1 {
+    list-style: none;
+}
+
+.ul-1 li {
+    padding: 9px 15px;
+}
+
+.ul-1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ul-1 li:hover {
+    background-color: #643a79;
+}
+
+.header-2 {
+    height: 350px;
+    background-color: #87509c;
+}
+
+
+/* WORK WITH US section */
+
+.h-1 {
+    margin-top: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+.b-1 {
+    text-align: center;
+    width: 200px;
+    margin-left: 460px;
+    margin-top: 40px;
+    height: 50px;
+    background-color: #eb7d4b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+
+/* Services section */
+
+.header-3 {
+    height: 500px;
+    background: #17c2a4;
+}
+
+.inner-header2 {
+    height: 500px;
+}
+
+.card-deck {
+    background-color: #17c2a4;
+    border: none;
+    margin-left: 15px;
+}
+
+.t-1 {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Team Section CSS */
+
+.header-4 {
+    height: 670px;
+    background-color: #e7f1f8;
+    position: relative;
+}
+
+.h-3 {
+    margin-top: 60px;
+    color: #3c4761;
+    position: absolute;
+    left: 280px;
+    font-weight: bold;
+}
+
+.p-1 {
+    margin-top: 137px;
+    color: #3c4761;
+    position: absolute;
+    left: 272px;
+}
+
+.inner-header3 {
+    height: 600px;
+    position: relative;
+}
+
+.c-2 {
+    margin-left: 20px;
+    margin-top: 230px;
+    width: 200px !important;
+    height: 400px;
+}
+
+.c-1 {
+    text-align: center;
+    color: #3c4761;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.t-2 {
+    color: #55c2e9 !important;
+    text-align: center;
+}
+
+.t-3 {
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    margin: 10px auto;
+    width: 120px;
+    height: 120px;
+    background-color: #878787;
+    justify-content: center;
+    text-align: center;
+    border-radius: 70px;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.fa-pinterest:hover {
+    color: #c8232c;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+    cursor: pointer;
+}
+
+.fa-twitter-square:hover {
+    color: #00acee;
+    cursor: pointer;
+}
+
+
+/* Skills Section CSS */
+
+.header-5 {
+    height: 500px;
+    background: #ffffff;
+    position: relative;
+}
+
+.inner-header4 {
+    height: 500px;
+    position: relative;
+    background: #ffffff;
+}
+
+.h-4 {
+    margin-top: 60px;
+    color: #3c4761;
+    position: absolute;
+    left: 425px;
+    font-weight: bold;
+}
+
+.c-3 {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+}
+
+.grey {
+    width: 130px;
+    height: 130px;
+    background: #ffffff;
+    margin-left: 10px;
+    border-radius: 75px;
+    border: 8px solid #dfe8ed;
+}
+
+.progress_bar1 {
+    width: 130px;
+    height: 130px;
+    background: #ffffff;
+    margin-left: -7px;
+    border-radius: 75px;
+    margin-top: -7px;
+    border: 8px solid #30bae7;
+}
+
+.span {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.progress_bar2 {
+    width: 130px;
+    height: 130px;
+    background: #ffffff;
+    margin-left: -7px;
+    border-radius: 75px;
+    margin-top: -7px;
+    border: 8px solid #d74680;
+}
+
+.progress_bar3 {
+    width: 130px;
+    height: 130px;
+    background: #ffffff;
+    margin-left: -7px;
+    border-radius: 75px;
+    margin-top: -7px;
+    border: 8px solid #15c7a8;
+}
+
+.progress_bar4 {
+    width: 130px;
+    height: 130px;
+    background: #ffffff;
+    margin-left: -7px;
+    border-radius: 75px;
+    margin-top: -7px;
+    border: 8px solid #eb7d4b;
+}
+
+.d-block1 {
+    margin-left: 50px;
+}
+
+.topic {
+    margin-top: 35px;
+    color: #3c4761;
+    font-weight: bold;
+}
+
+
+/* Portfolio section */
+
+.header-6 {
+    position: relative;
+    height: 1000px;
+    background-color: #ffdd99;
+}
+
+.inner-header5 {
+    height: 1000px;
+    position: relative;
+}
+
+.ul-2 {
+    position: absolute;
+    top: 20%;
+    left: 31%;
+}
+
+.ul-2 li {
+    list-style: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    background: #ebc985;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.ul-2 li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.ul-2 .active {
+    background-color: #ffffff;
+}
+
+.ul-2 li:hover {
+    background-color: #ffffff;
+}
+
+.laptop {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.laptop2 {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.b-2 {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: 3%;
+    left: 40%;
+    background: #17c2a4;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #14a58c !important;
+    border-radius: 5px;
+}
+
+
+/* About Us Section CSS */
+
+.header-7 {
+    position: relative;
+    height: 600px;
+    background: #d74680;
+}
+
+.inner-header6 {
+    position: relative;
+    height: 600px;
+}
+
+.h-2 {
+    margin-top: 60px;
+    color: #fff;
+    position: absolute;
+    left: 280px;
+    font-weight: bold;
+}
+
+.p-6 {
+    color: #fff;
+    position: absolute;
+    left: 45%;
+    top: 19%;
+}
+
+.card-2 {
+    border: none;
+    background: #d74680;
+}
+
+.c-4 {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+
+.c-5 {
+    position: absolute;
+    top: 60%;
+    left: 9%;
+}
+
+
+/* Contact Us Section CSS */
+
+.header-8 {
+    position: relative;
+    height: 600px;
+    background: #3c5499;
+}
+
+.inner-header7 {
+    position: relative;
+    height: 600px;
+}
+
+.h-6 {
+    margin-top: 60px;
+    color: #fff;
+    position: absolute;
+    left: 39%;
+    font-weight: bold;
+}
+
+.p-7 {
+    color: #fff;
+    position: absolute;
+    left: 31%;
+    top: 20%;
+}
+
+.contact_us {
+    position: absolute;
+    top: 32%;
+    left: 22%;
+}
+
+.contact1 {
+    width: 350px;
+    height: 59px;
+    border: none;
+    border-radius: 3px;
+    background-color: #273a71;
+}
+
+input::placeholder {
+    color: #fff;
+    padding-left: 30px;
+}
+
+.contact2 {
+    position: absolute;
+    bottom: 18%;
+    left: 22%;
+    width: 717px;
+    height: 204px;
+    border: none;
+    border-radius: 3px;
+    background-color: #273a71;
+}
+
+.b-3 {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+    background: #30bae7;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #14a58c !important;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    background: #344b8e;
+    height: 70px;
+}
+
+.ul-3 {
+    position: absolute;
+    top: 35%;
+    /* margin-top: 10px; */
+    list-style: none;
+    left: 22%;
+}
+
+.ul-3 li {
+    padding: 0px 20px;
+}
+
+.ul-3 li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ul-3 li a:hover {
+    color: #30bae7;
+}

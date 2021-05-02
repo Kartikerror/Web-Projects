@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* Navbar Section CSS */
+
+.header-1 {
+    position: relative;
+    height: 70px;
+    background: #303030;
+}
+
+.inner-header1 {
+    position: relative;
+    height: 70px;
+    text-align: left;
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    width: 138px;
+    float: left;
+}
+
+#logo {
+    width: 138px;
+    height: 63px;
+    background: #fff;
+}
+
+.ul-1 {
+    position: absolute;
+    top: 31%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-1 li {
+    padding: 0px 20px;
+}
+
+.ul-1 li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ul-1 li a:hover {
+    color: rgb(136, 136, 136);
+}
+
+.right {
+    float: right;
+    top: 31%;
+    position: absolute;
+    right: 120px;
+}
+
+.search {
+    color: #fff;
+}
+
+
+/* Register Section CSS */
+
+.header-2 {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg-1.jpg);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.h-1 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+.p-1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-1 {
+    width: 220px;
+    height: 70px;
+    background-color: #e8631c;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.btn-1:hover {
+    background: #d45b19;
+    color: #fff;
+}
+
+
+/* Dance Tour CSS */
+
+.header-3 {
+    position: relative;
+    height: 700px;
+    background: #e8631c;
+}
+
+.inner-header3 {
+    position: relative;
+    height: 700px;
+}
+
+.h-2 {
+    position: absolute;
+    left: 35%;
+    top: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.p-2 {
+    position: absolute;
+    left: 27%;
+    top: 105px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.c-1 {
+    border: none;
+    background: #303030;
+    width: 250px !important;
+    height: 400px !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 32%;
+    left: 18%;
+}
+
+.c-2 {
+    border: none;
+    background: #303030;
+    width: 250px !important;
+    height: 400px !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 32%;
+    left: 70%;
+}
+
+.c-3 {
+    border: none;
+    background: #303030;
+    width: 250px !important;
+    height: 400px !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 32%;
+    left: 44%;
+}
+
+.card-text-1 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text-2 {
+    color: #fff;
+    text-align: center;
+}
+
+.card-deck {
+    position: inherit;
+    top: 33%;
+    left: -8%;
+    display: flex;
+}
+
+.card-img-2 {
+    width: 250px;
+    height: 250px;
+}
+
+
+/* Pricing Section CSS */
+
+.header-4 {
+    position: relative;
+    height: 700px;
+    background: #303030;
+}
+
+.inner-header4 {
+    position: relative;
+    height: 700px;
+}
+
+.h-3 {
+    position: absolute;
+    left: 40%;
+    top: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.p-3 {
+    position: absolute;
+    left: 25%;
+    top: 105px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.c-4 {
+    border: none;
+    background: #e8631c;
+    width: 250px !important;
+    height: 400px !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 32%;
+    left: 18%;
+}
+
+.c-5 {
+    border: none;
+    background: #e8631c;
+    width: 250px !important;
+    height: 400px !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 32%;
+    left: 70%;
+}
+
+.c-6 {
+    border: none;
+    background: #e8631c;
+    width: 250px !important;
+    height: 400px !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 32%;
+    left: 44%;
+}
+
+.badge-1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.btn-2 {
+    width: 220px;
+    height: 70px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.btn-2:hover {
+    background-color: #3b3b3b;
+    transition: all 0.3s linear;
+}
+
+
+/* Dance Section CSS */
+
+.header-5 {
+    position: relative;
+    height: 600px;
+    background: #e8631c;
+}
+
+.inner-header5 {
+    position: relative;
+    height: 600px;
+}
+
+.left-img {
+    height: 600px;
+    position: relative;
+    background-image: url(../images/bg-7.jpg);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.right-text {
+    height: 600px;
+}
+
+.h-5 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 142px;
+    margin-left: 34px;
+}
+
+.p-4 {
+    position: absolute;
+    left: 51.5%;
+    top: 225px;
+    color: #fff;
+    font-size: 20px;
+    text-align: start;
+}
+
+.btn-3 {
+    width: 220px;
+    height: 70px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 156px;
+    margin-left: 30px;
+}
+
+.btn-3:hover {
+    background-color: #3b3b3b;
+    transition: all 0.3s linear;
+}
+
+.h-4 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 145px;
+    margin-left: 43px;
+}
+
+.p-5 {
+    position: absolute;
+    left: 0.5%;
+    top: 186px;
+    color: #fff;
+    font-size: 20px;
+    text-align: start;
+}
+
+.btn-4 {
+    width: 220px;
+    height: 70px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 135px;
+    margin-left: 42px;
+}
+
+.btn-4:hover {
+    background-color: #3b3b3b;
+    transition: all 0.3s linear;
+}
+
+
+/* Our Statastics Section CSS */
+
+.inner-header6 {
+    position: relative;
+    height: 600px;
+}
+
+.header-6 {
+    position: relative;
+    height: 600px;
+    background: #303030;
+}
+
+.h-6 {
+    position: absolute;
+    left: 28%;
+    top: 95px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.p-6 {
+    position: absolute;
+    left: 25.5%;
+    top: 186px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.numbers {
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 37px;
+}
+
+.num1 {
+    width: 150px;
+    height: 150px;
+    margin-left: 130px;
+    background-color: #303030;
+}
+
+.num1 span,
+.num3 span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 22px;
+}
+
+.num1 p {
+    color: #fff;
+    margin-left: 42px;
+    font-size: 27px;
+}
+
+.num2 {
+    width: 220px;
+    height: 150px;
+    margin-left: 130px;
+    background-color: #303030;
+}
+
+.num2 span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 68px;
+}
+
+.num2 p {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 27px;
+}
+
+.num3 {
+    width: 150px;
+    margin-left: 130px;
+    height: 150px;
+    background-color: #303030;
+}
+
+.num3 p {
+    color: #fff;
+    margin-left: 12px;
+    font-size: 27px;
+}
+
+
+/* Linear Gradient Section CSS */
+
+.header-7 {
+    position: relative;
+    height: 400px;
+    background-image: linear-gradient(rgba(241, 74, 8, 0.6), rgba(241, 74, 8, 0.6)), url(../images/bg-1.jpg);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-size: 100% 100%;
+}
+
+
+/* Subscribe Section CSS */
+
+.header-8 {
+    position: relative;
+    height: 400px;
+    background: #e8631c;
+}
+
+.inner-header7 {
+    position: relative;
+    height: 400px;
+}
+
+.h-7 {
+    position: absolute;
+    left: 39%;
+    top: 80px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.p-7 {
+    position: absolute;
+    left: 31.5%;
+    top: 150px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact_us {
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 260px;
+}
+
+.email {
+    width: 500px;
+    height: 40px;
+    border: none;
+}
+
+.email::placeholder {
+    padding-left: 15px;
+}
+
+.btn-5 {
+    width: 144px;
+    height: 45px;
+    border: none;
+    background: #303030;
+    color: #fff;
+    margin-left: -4px;
+}
+
+
+/* Footer Section CSS */
+
+.header-9 {
+    position: relative;
+    height: 400px;
+    background: #303030;
+}
+
+.others {
+    position: absolute;
+    right: 80px;
+    top: 80px;
+}
+
+.p-8 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 29px;
+}
+
+.ul-4 {
+    list-style: none;
+}
+
+.ul-4 li {
+    /* line-height: 3; */
+    padding-top: 20px;
+    text-align: start;
+}
+
+.li-1 {
+    padding-top: 0px !important;
+}
+
+.ul-4 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ul-4 li a:hover {
+    color: rgb(156, 156, 156);
+}
+
+.services {
+    position: absolute;
+    right: 280px;
+    top: 80px;
+}
+
+.about {
+    position: absolute;
+    right: 530px;
+    top: 80px;
+}
+
+.musicology {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+.p-9 {
+    margin-top: 20px;
+    font-size: 17px;
+    color: #fff;
+    margin-left: 29px;
+}
+
+.icons {
+    margin-left: 26px;
+    margin-top: 30px;
+}
+
+.insta,
+.twitter,
+.fb,
+.whatsapp {
+    background: #fff;
+}
+
+.footer {}
